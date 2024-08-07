@@ -1,0 +1,75 @@
+{
+    "name"    : "PLACEHOLDER",
+    "max_spd" : 10,
+
+    "health_hull"   : 100,
+    "health_engine" : 100,
+    "health_lab"    : 100,
+    "health_bridge" : 100,
+    "health_dinghy" : 100,
+    "health_sub"    : 100,
+
+    "fuel_cap" : 134400,
+    # Fuel efficiency is liters PER nautical mile
+    "fuel_eff" : 10,
+
+    # Lab research values
+    "lab_base"           : 17280,
+    "lab_count_tech"     : 17280,
+    "lab_count_artifact" : 17280,
+
+    "shipX"       : 0,
+    "shipY"       : 0,
+    "hdg"         : 0,
+    "spd"         : 0,
+    "trackID"     : -1,
+    "diverted"    : false,
+    "range_radar" : 50,
+    "mod_radar"   : 0,
+    "range_sonar" : 10,
+    "mod_sonar"   : 0,
+
+    # 3 meals per day x 5 crewmembers x 60 day supply = 900 rations
+    # Similar math for water (200 liters per day)
+    "cargo_food"          : 900,
+    "cargo_water"         : 60000,
+    "cargo_iron"          : 150,
+    "cargo_silicon"       : 100,
+    "cargo_fuel"          : 134400,
+    "to_analyze_tech"     : 0,
+    "to_analyze_artifact" : 0,
+
+    "co"    : { "name"   : "VACANT", 
+                "health" : 100, 
+                "fTitle" : "Captain", 
+                "style"  : "Adventurous" },
+
+    "cheng" : { "name"   : "VACANT", 
+                "health" : 100, 
+                "fTitle" : "Chief Engineer", 
+                "style"  : "NULL" },
+
+    "cso"   : { "name"   : "VACANT", 
+                "health" : 100, 
+                "fTitle" : "Chief Science Officer", 
+                "style"  : "NULL" },
+
+    "eng"   : { "name"   : "VACANT", 
+                "health" : 100, 
+                "fTitle" : "Junior Engineer", 
+                "style"  : "NULL" },
+
+    "sci"   : { "name"   : "VACANT", 
+                "health" : 100, 
+                "fTitle" : "Junior Scientist", 
+                "style"  : "NULL" },
+
+    "money"       : 325000,
+    "odometer"    : 0,
+    "day"         : 1,
+    "tStamp"      : 0,
+
+    # Cheats - should only be used for testing/debugging
+    "quikExplore" : false,
+    "quikSail"    : false
+}

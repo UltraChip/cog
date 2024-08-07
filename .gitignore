@@ -1,0 +1,7 @@
+__pycache__/*
+lib/__pycache__/*
+venv/*
+save/*
+testdb.db
+lib/testdb2.db
+log_cog
